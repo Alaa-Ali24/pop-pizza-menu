@@ -62,68 +62,69 @@ const menu = [
     category: "Salat Pizza",
     note: "Alm. / Fam. / Large",
     items: [
-      ["42", "Kebab", "tomat, ost, kebab, frisk salat, tomat, agurk, dressing", "90,- / 180,- / 270,-"],
-      ["43", "Coralla", "tomat, ost, kebab, pepperoni, løg, frisk salat, tomat, agurk, dressing", "90,- / 180,- / 270,-"],
-      ["44", "Serdina", "tomat, ost, skinke, oksekød, pepperoni, frisk salat, tomat, agurk, dressing", "90,- / 180,- / 270,-"],
-      ["45", "Joudi", "tomat, ost, kylling, kebab, pepperoni, frisk salat, tomat, agurk, dressing", "90,- / 180,- / 270,-"]
+      ["43", "Kebab", "tomat, ost, kebab, frisk salat, tomat, agurk, dressing", "90,- / 180,- / 270,-"],
+      ["44", "Coralla", "tomat, ost, kebab, pepperoni, løg, frisk salat, tomat, agurk, dressing", "90,- / 180,- / 270,-"],
+      ["45", "Serdina", "tomat, ost, skinke, oksekød, pepperoni, frisk salat, tomat, agurk, dressing", "90,- / 180,- / 270,-"],
+      ["46", "Joudi", "tomat, ost, kylling, kebab, pepperoni, frisk salat, tomat, agurk, dressing", "90,- / 180,- / 270,-"]
     ]
   },
   {
     category: "Indbagt Pizza",
     note: "",
     items: [
-      ["46", "Cao Cao", "tomat, ost, skinke", "70,-"],
-      ["47", "Matador", "tomat, ost, skinke, rejer, champignon", "80,-"],
-      ["48", "Napoli", "tomat, ost, kylling, kebab, paprika, chili", "80,-"],
-      ["49", "Pasta", "tomat, ost, spaghetti, kødsauce", "80,-"]
+      ["47", "Cao Cao", "tomat, ost, skinke", "70,-"],
+      ["48", "Matador", "tomat, ost, skinke, rejer, champignon", "80,-"],
+      ["49", "Napoli", "tomat, ost, kylling, kebab, paprika, chili", "80,-"],
+      ["50", "Pasta", "tomat, ost, spaghetti, kødsauce", "80,-"]
     ]
   },
   {
     category: "Pasta",
     note: "",
     items: [
-      ["50", "Spaghetti Speciale", "hvidløg, flødesauce, rejer, gorgonzola, chili", "85,-"],
-      ["51", "Spaghetti Carbonara", "flødesauce, bacon, løg, æg", "80,-"],
-      ["52", "Spaghetti Bolognese", "kødsauce", "70,-"],
-      ["53", "Spaghetti Napoli", "flødesauce, kebab, kylling, pesto", "85,-"],
-      ["54", "Spaghetti Kylling", "kylling, oliven, majs, parmesan, karry", "85,-"]
+      ["51", "Spaghetti Speciale", "hvidløg, flødesauce, rejer, gorgonzola, chili", "85,-"],
+      ["52", "Spaghetti Carbonara", "flødesauce, bacon, løg, æg", "80,-"],
+      ["53", "Spaghetti Bolognese", "kødsauce", "70,-"],
+      ["54", "Spaghetti Napoli", "flødesauce, kebab, kylling, pesto", "85,-"],
+      ["55", "Spaghetti Kylling", "kylling, oliven, majs, parmesan, karry", "85,-"]
     ]
   },
   {
     category: "Sandwiches",
     note: "",
     items: [
-      ["55", "Kylling Sandwich", "med ost, salat, dressing", "70,-"],
-      ["56", "Kebab Sandwich", "med ost, salat, dressing", "70,-"]
+      ["56", "Kylling Sandwich", "med ost, salat, dressing", "70,-"],
+      ["57", "Kebab Sandwich", "med ost, salat, dressing", "70,-"]
     ]
   },
   {
     category: "Pitabrød",
     note: "",
     items: [
-      ["57", "Pita Kebab", "hjemmelavet pitabrød, kebab, salat, agurk, tomat, dressing", "60,-"],
-      ["58", "Pita Kylling", "hjemmelavet pitabrød, kylling, salat, agurk, tomat, dressing", "60,-"],
-      ["59", "Pita Falafel", "hjemmelavet pitabrød, falafel, salat, agurk, tomat, dressing", "60,-"]
+      ["58", "Pita Kebab", "hjemmelavet pitabrød, kebab, salat, agurk, tomat, dressing", "60,-"],
+      ["59", "Pita Kylling", "hjemmelavet pitabrød, kylling, salat, agurk, tomat, dressing", "60,-"],
+      ["60", "Pita Falafel", "hjemmelavet pitabrød, falafel, salat, agurk, tomat, dressing", "60,-"]
     ]
   },
   {
     category: "Rulle",
     note: "",
     items: [
-      ["60", "Kebab Rulle", "hjemmelavet brød, kebab, salat, agurk, tomat, dressing", "70,-"],
-      ["61", "Kylling Rulle", "hjemmelavet brød, kylling, salat, agurk, tomat, dressing", "70,-"],
-      ["62", "Falafel Rulle", "hjemmelavet brød, falafel, tahini, salat, agurk, tomat, dressing", "70,-"]
+      ["61", "Kebab Rulle", "hjemmelavet brød, kebab, salat, agurk, tomat, dressing", "70,-"],
+      ["62", "Kylling Rulle", "hjemmelavet brød, kylling, salat, agurk, tomat, dressing", "70,-"],
+      ["63", "Falafel Rulle", "hjemmelavet brød, falafel, tahini, salat, agurk, tomat, dressing", "70,-"],
+      ["64", "Hvidløgesbrød", "med ost", "70,-"]
     ]
   },
   {
     category: "POP Specialiteter",
     note: "",
     items: [
-      ["63", "Stjerneskud", "2 stk. fiskefilet, rejer, brød, kaviar, asparges, agurk, dressing, citron", "104,-"],
-      ["64", "Fiskefilet", "2 stk. fiskefilet, pommes frites, citron, ketchup, remoulade", "89,-"],
-      ["65", "Skinke Schnitzel", "kartoffelbåde, bearnaisesauce, salat, tomat, agurk, dressing", "100,-"],
-      ["66", "Bøfsandwich", "", "110,-"],
-      ["67", "Dansk Bøf", "", "120,-"]
+      ["65", "Stjerneskud", "2 stk. fiskefilet, rejer, brød, kaviar, asparges, agurk, dressing, citron", "104,-"],
+      ["66", "Fiskefilet", "2 stk. fiskefilet, pommes frites, citron, ketchup, remoulade", "89,-"],
+      ["67", "Skinke Schnitzel", "kartoffelbåde, bearnaisesauce, salat, tomat, agurk, dressing", "100,-"],
+      ["68", "Bøfsandwich", "", "110,-"],
+      ["69", "Dansk Bøf", "", "120,-"]
     ]
   },
   {
@@ -142,51 +143,52 @@ const menu = [
     ]
   },
   {
-    category: "Grill & Burger",
+    category: "Grill & Dvierse",
     note: "",
     items: [
-      ["68", "Kylling Burger", "", "63,-"],
-      ["69", "Big Burger", "", "67,-"],
-      ["70", "Bacon Burger", "", "70,-"],
-      ["71", "Cheese Burger", "", "70,-"],
-      ["72", "Bacon Cheese Burger", "", "75,-"],
-      ["73", "Dobbelt Burger", "", "80,-"],
-      ["74", "Ægge Burger", "", "80,-"],
-      ["75", "1/2 Grillkylling", "med pommes frites, salat, ketchup, remoulade, creme fraiche dressing", "90,-"]
+      ["70", "1/2 Grillkylling", "med pommes frites, salat, ketchup, remoulade, creme fraiche dressing", "90,-"],
+      ["71", "Pommes Frites", "lille / mellem / stor", "25,- / 35,- / 45,-"],
+      ["72", "Kebab Tallerken", "med kebab, pommes frites, salat, agurk, tomat, creme fraiche dressing", "80,-"],
+      ["73", "Kylling Tallerken", "med kylling, pommes frites, salat, agurk, tomat, creme fraiche dressing", "80,-"],
+      ["74", "Falafel Tallerken", "med falafel, tahini, pommes frites, salat, tomat, agurk, dressing", "80,-"],
+      ["75", "Pølsemix", "med pølser, pommes frites, salat, agurk, tomat, ketchup", "80,-"],
+      ["76", "Nachos 1", "med cheddarost, guacamole, salsa", "70,-"],
+      ["77", "Nachos 2", "med cheddarost, kylling, guacamole, salsa", "75,-"],
+      ["78", "Snackkurv", "2 mozzarellasticks, 2 chilicheese tops, 2 chicken nuggets, 2 indbagte rejer, 2 løgringe, ketchup, remoulade, mayo", "75,-"]
+      
     ]
   },
   {
     category: "Diverse",
     note: "",
     items: [
-      ["76", "Pommes Frites", "lille / mellem / stor", "25,- / 35,- / 45,-"],
-      ["77", "Hvidløgesbrød", "med ost", "70,-"],
-      ["78", "Kebab Tallerken", "med kebab, pommes frites, salat, agurk, tomat, creme fraiche dressing", "80,-"],
-      ["79", "Kylling Tallerken", "med kylling, pommes frites, salat, agurk, tomat, creme fraiche dressing", "80,-"],
-      ["80", "Falafel Tallerken", "med falafel, tahini, pommes frites, salat, tomat, agurk, dressing", "80,-"],
-      ["81", "Pølsemix", "med pølser, pommes frites, salat, agurk, tomat, ketchup", "80,-"],
-      ["82", "Nachos 1", "med cheddarost, guacamole, salsa", "70,-"],
-      ["83", "Nachos 2", "med cheddarost, kylling, guacamole, salsa", "75,-"],
-      ["84", "Snackkurv", "2 mozzarellasticks, 2 chilicheese tops, 2 chicken nuggets, 2 indbagte rejer, 2 løgringe, ketchup, remoulade, mayo", "75,-"]
+      ["79", "Kylling Burger", "", "63,-"],
+      ["80", "Big Burger", "", "67,-"],
+      ["81", "Bacon Burger", "", "70,-"],
+      ["82", "Cheese Burger", "", "70,-"],
+      ["83", "Bacon Cheese Burger", "", "75,-"],
+      ["84", "Dobbelt Burger", "", "80,-"],
+      ["85", "Ægge Burger", "", "80,-"]
+      
     ]
   },
   {
     category: "Salater",
     note: "",
     items: [
-      ["85", "Tun Salat", "", "65,-"],
-      ["86", "Græsk Salat", "", "65,-"],
-      ["87", "Kebab Salat", "", "65,-"],
-      ["88", "Kylling Salat", "", "65,-"],
-      ["89", "Reje Salat", "", "75,-"]
+      ["86", "Tun Salat", "", "65,-"],
+      ["87", "Græsk Salat", "", "65,-"],
+      ["88", "Kebab Salat", "", "65,-"],
+      ["89", "Kylling Salat", "", "65,-"],
+      ["90", "Reje Salat", "", "75,-"]
     ]
   },
   {
     category: "Dessert",
     note: "",
     items: [
-      ["90", "Pandekage", "", "55,-"],
-      ["91", "Chokoladekage", "", "55,-"]
+      ["91", "Pandekage", "", "55,-"],
+      ["92", "Chokoladekage", "", "55,-"]
     ]
   },
   {
