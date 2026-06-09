@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#171414">
+    <title>POP Pizza | Menukort</title>
+    <meta name="description" content="POP Pizza menukort i Hjorring. Pizza, pasta, burger, grill, salater og drikkevarer.">
+    <link rel="preload" as="image" href="assets/pizza-hero.png">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__image" aria-hidden="true"></div>
+      <div class="hero__content">
+        <p class="eyebrow">Østergade 18A, 9800 Hjørring</p>
+        <h1>POP Pizza</h1>
+        <p class="hero__text">Frisklavet pizza, pasta, burger og grill. Scan QR-koden og bestil nemt fra mobilen.</p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="tel:+4591115003">Ring 91 11 50 03</a>
+          <a class="button button--ghost" href="assets/pop-pizza-menukort.pdf">Åbn PDF</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="info-strip" aria-label="Praktisk information">
+        <article>
+          <span>Frokostpizza</span>
+          <strong>Nr. 1-15 kl. 11.30-15.30</strong>
+        </article>
+        <article>
+          <span>Søn-tors</span>
+          <strong>11.30-20.30</strong>
+        </article>
+        <article>
+          <span>Fre-lør</span>
+          <strong>11.30-21.30</strong>
+        </article>
+      </section>
+
+      <section class="toolbar" aria-label="Find retter">
+        <label class="search">
+          <span>Søg</span>
+          <input id="menu-search" type="search" placeholder="Pizza, kebab, burger..." autocomplete="off">
+        </label>
+        <div class="notice-list">
+          <span>Skinke er kalkun</span>
+          <span>Deep pan +20,-</span>
+          <span>Glutenfri alm. pizza +25,-</span>
+        </div>
+      </section>
+
+      <nav id="category-nav" class="category-nav" aria-label="Kategorier"></nav>
+
+      <section id="menu-root" class="menu-root" aria-live="polite"></section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <strong>POP Pizza</strong>
+        <span>Østergade 18A, 9800 Hjørring</span>
+      </div>
+      <a href="tel:+4591115003">91 11 50 03</a>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
