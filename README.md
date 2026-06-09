@@ -8,6 +8,7 @@ Dette er en gratis statisk menu-side, der kan hostes uden database eller backend
 - `styles.css` styrer designet.
 - `script.js` indeholder menuen, priserne og kategorierne.
 - `pizza-hero.png` er billedet øverst på siden.
+- `pop-logo.png` er det lille billede/logo øverst på siden.
 - `pop-pizza-menukort.pdf` er original PDF som backup-link.
 
 ## Gratis hosting

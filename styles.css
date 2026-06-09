@@ -1,15 +1,16 @@
 :root {
-  --bg: #fbfaf7;
+  --bg: #f8f3fb;
   --paper: #ffffff;
-  --ink: #171414;
-  --muted: #6f625b;
-  --line: #e8dfd7;
-  --red: #c7392f;
-  --red-dark: #91271f;
-  --green: #196b4d;
-  --gold: #d99a24;
-  --charcoal: #241f1d;
-  --shadow: 0 12px 28px rgba(23, 20, 20, 0.12);
+  --ink: #22122d;
+  --muted: #715f7e;
+  --line: #eadff0;
+  --purple: #6c2a87;
+  --purple-mid: #4b1460;
+  --purple-dark: #2b093a;
+  --lavender: #d4bfe5;
+  --gold: #f2c25b;
+  --charcoal: #19091f;
+  --shadow: 0 12px 28px rgba(43, 9, 58, 0.14);
 }
 
 * {
@@ -44,7 +45,7 @@ a {
 .hero__image {
   position: absolute;
   inset: 0;
-  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.5)), url("pizza-hero.png");
+  background-image: linear-gradient(90deg, rgba(43, 9, 58, 0.24), rgba(43, 9, 58, 0.82)), url("pizza-hero.png?v=3");
   background-size: cover;
   background-position: center;
 }
@@ -57,9 +58,34 @@ a {
   padding: 80px 0 116px;
 }
 
+.brand-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 62px;
+  margin-bottom: 18px;
+  padding: 9px 14px 9px 10px;
+  border: 1px solid rgba(212, 191, 229, 0.36);
+  border-radius: 8px;
+  background: rgba(43, 9, 58, 0.72);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.2);
+}
+
+.brand-logo {
+  width: 78px;
+  height: 54px;
+  object-fit: contain;
+}
+
+.brand-row span {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 1.08rem;
+}
+
 .eyebrow {
   margin: 0 0 14px;
-  color: #ffd98f;
+  color: var(--gold);
   font-size: 0.92rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -78,7 +104,7 @@ h1 {
   max-width: 520px;
   margin: 22px 0 0;
   font-size: 1.18rem;
-  color: #fff3de;
+  color: #f3e7ff;
 }
 
 .hero__actions {
@@ -103,7 +129,7 @@ h1 {
 .button--primary {
   border-color: var(--gold);
   background: var(--gold);
-  color: #1c1510;
+  color: var(--purple-dark);
 }
 
 .button--ghost {
@@ -173,8 +199,8 @@ main {
 }
 
 .search input:focus {
-  outline: 3px solid rgba(217, 154, 36, 0.28);
-  border-color: var(--gold);
+  outline: 3px solid rgba(108, 42, 135, 0.22);
+  border-color: var(--purple);
 }
 
 .notice-list {
@@ -190,8 +216,8 @@ main {
   align-items: center;
   border-radius: 8px;
   padding: 7px 10px;
-  background: #f1eadf;
-  color: #4f423a;
+  background: #efe3f6;
+  color: var(--purple-mid);
   font-size: 0.9rem;
   font-weight: 700;
 }
@@ -205,7 +231,7 @@ main {
   overflow-x: auto;
   padding: 14px 0;
   margin-top: 12px;
-  background: rgba(251, 250, 247, 0.96);
+  background: rgba(248, 243, 251, 0.96);
   backdrop-filter: blur(10px);
 }
 
@@ -214,11 +240,11 @@ main {
   min-height: 38px;
   display: inline-flex;
   align-items: center;
-  border: 1px solid #dfd2c6;
+  border: 1px solid #dfd0eb;
   border-radius: 8px;
   padding: 8px 12px;
   background: var(--paper);
-  color: #342b27;
+  color: var(--purple-dark);
   text-decoration: none;
   font-size: 0.92rem;
   font-weight: 800;
@@ -227,8 +253,8 @@ main {
 
 .category-nav a:hover,
 .category-nav a:focus {
-  border-color: var(--red);
-  color: var(--red-dark);
+  border-color: var(--purple);
+  color: var(--purple);
 }
 
 .menu-root {
@@ -245,7 +271,7 @@ main {
   align-items: end;
   justify-content: space-between;
   gap: 16px;
-  border-bottom: 3px solid var(--red);
+  border-bottom: 3px solid var(--purple);
   padding-bottom: 10px;
   margin-bottom: 14px;
 }
@@ -296,7 +322,7 @@ main {
 .item-number {
   flex: 0 0 auto;
   min-width: 28px;
-  color: var(--green);
+  color: var(--purple);
   font-weight: 900;
 }
 
@@ -314,7 +340,7 @@ main {
   align-self: start;
   min-width: 76px;
   text-align: right;
-  color: var(--red-dark);
+  color: var(--purple-mid);
   font-weight: 900;
   white-space: nowrap;
 }
@@ -333,7 +359,7 @@ main {
   justify-content: space-between;
   gap: 20px;
   padding: 24px max(16px, calc((100vw - 1120px) / 2));
-  background: var(--charcoal);
+  background: var(--purple-dark);
   color: #fff7ed;
 }
 
@@ -343,7 +369,7 @@ main {
 }
 
 .footer span {
-  color: #d9c8b8;
+  color: var(--lavender);
 }
 
 .footer a {
